@@ -1,0 +1,27 @@
+.newscard{
+    box-shadow: 0 0 18px 1px rgb(159, 159, 159);
+    width: 31%;
+    padding: 9px;
+    border-radius: 6px;
+    h2{
+        font-size: 20px;
+
+    }
+}
+.source{
+    display: flex;
+    justify-content: space-between;
+}
+.published{
+    font-size: 14px;
+}
+@media(max-width:1000px) {
+    .newscard{
+        width: 47%;
+    }
+}
+@media(max-width:460px) {
+    .newscard{
+        width: 97%;
+    }
+}
