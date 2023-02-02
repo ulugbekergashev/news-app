@@ -9,7 +9,7 @@ export default function NewsCard({result}) {
     }
   return (
     <div className={style.newscard}>
-        <Image src={`${result.urlToImage}`} alt={`image not found`} />
+        <img src={`${result.urlToImage}`} alt={`image not found`} />
         <h2>{result.title}</h2>
         <div dangerouslySetInnerHTML={createMarkup()} ></div>
         <div className={style.source}>
